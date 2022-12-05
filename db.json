@@ -1,0 +1,22 @@
+{
+  "produtos": [
+    {
+      "id": 1,
+      "nome": "Refrigerante",
+      "descricao": "Refrigerante sabor Guaraná, 2L",
+      "preco": 10.5
+    },
+    {
+      "id": 2,
+      "nome": "Hamburguer",
+      "descricao": "Pão Bife e salada",
+      "preco": 6.5
+    },
+    {
+      "id": 3,
+      "nome": "Coxinha",
+      "descricao": "Coxinha de frango, 20g",
+      "preco": 3.4
+    }
+  ]
+}

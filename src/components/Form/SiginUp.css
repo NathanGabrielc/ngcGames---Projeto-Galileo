@@ -1,0 +1,120 @@
+.box {
+    display: flex;
+    max-height: 100vw;
+    max-height: 100vh;
+}
+
+/* ========== LEFT SIDE ========== */
+.form-box {
+    background-color: white;
+    width: 35vw;
+}
+
+/* ========== LOGO ========== */
+.logo {
+    display: flex;
+    height: 30vh;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo img {
+    width: 25rem;
+}
+
+.logo h2 {
+    font-size: 2rem;
+    color: #01bf71;
+}
+
+/* ========== FORM ========== */
+.form-box form {
+    height: 70vh;
+    width: 100%;
+
+
+
+}
+
+.input-group {
+    padding: 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form .input-group label {
+    color: #3D3D3D;
+    font-weight: bold;
+    width: 53%;
+    padding: 15px 0 0 0;
+    font-size: 16px;
+}
+
+form .input-group input {
+    width: 53%;
+    height: 47px;
+    background-color: rgba(255, 255, 255, 0.32);
+    color: #616161;
+    outline: none;
+    border: none;
+    padding: 0 0 0 40px;
+    font-size: 15px;
+    border-bottom: 1px solid #3D3D3D;
+}
+
+form .input-group input:focus {
+    border-bottom: 2px solid #01bf71;
+}
+
+form .input-group button {
+    width: 35%;
+    height: 47px;
+    background: #01bf71;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* ========== RIGHT SIDE ========== */
+.img-box {
+    background-color: #000;
+    width: 65vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+
+}
+
+.img-box img {
+    width: 75%;
+    border-radius: 20px;
+}
+
+/* ========== RESPONSIVITY ========== */
+@media (max-width:930px) {
+    .img-box {
+        display: none;
+    }
+
+    .box {
+        width: 700px;
+        display: flex;
+    }
+
+    .form-box {
+        width: 100%;
+    }
+
+}

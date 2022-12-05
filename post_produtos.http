@@ -1,0 +1,4 @@
+POST https://63069afec0d0f2b8011f9944.mockapi.io/produtos
+Content-Type: application/json
+
+{"loja":"NGC Games","nome":"League of Legends","descricao":"League of Legends é um jogo de estratégia em que duas equipes de cinco poderosos Campeões se enfrentam para destruir a base uma da outra.","imagem":"https://www.leagueoflegends.com/static/logo-1200-589b3ef693ce8a750fa4b4704f1e61f2.png","preco":"R$49,99","categoria": "PC"}
